@@ -2,8 +2,6 @@ from visualizations.ground_track import *
 from visualizations.polar_cord import *
 import sys
 
-import sys
-
 def select_option(options, prompt):
     """Display options and prompt user to select one."""
     sys.stdout.write(prompt + "\n")
