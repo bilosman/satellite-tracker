@@ -82,9 +82,9 @@ The program then generates the requested visualization, providing a detailed vie
 
 ## Libraries Used 📦
 
-Skyfield: For satellite position calculations.
-NumPy: Data handling and calculations.
-Matplotlib: Plotting and visualizing satellite paths.
+- **Skyfield**: For satellite position calculations.
+- **NumPy**: Data handling and calculations.
+- **Matplotlib**: Plotting and visualizing satellite paths.
 
 ## Future Improvements 🚀
 
