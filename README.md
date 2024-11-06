@@ -12,15 +12,15 @@ A Python application for tracking and visualizing satellite positions over Earth
 ## Conceptual Knowledge 📚
 
 - **Ground Track**: The projection of a satellite's orbit onto a 2D map of Earth, tracing its path as seen from the surface.
-  ![Ground Track Example](img/info/ground_track.jpg)
+![Ground Track Example](img/info/ground_track.jpg)
 
 - **Azimuth & Elevation**: Parameters describing satellite position relative to an observer:
   - *Azimuth*: Horizontal direction from the observer’s viewpoint (degrees).
   - *Elevation*: Vertical angle above the horizon (degrees).
-  ![Azimuth and Elevation](img/info/az_elevation.gif)
+![Azimuth and Elevation](img/info/az_elevation.gif)
 
 - **Polar Visualization**: A plot using azimuth and elevation to represent a satellite’s visibility relative to an observer’s location.
-  ![Polar Plot Example](img/info/polar_plot.png)
+![Polar Plot Example](img/info/polar_plot.png)
 
 ## Features ✨
 
