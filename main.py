@@ -72,7 +72,7 @@ def main():
         time_zone_choice = select_option(time_zones, "Select Time Zone:")
         observer_choice = select_option(observers_names, "Select Observer Location:")
         
-        sys.stdout.write(f"Selected: {visualization_choice} -> {satellite_choice} -> {observer_choice}\n")
+        sys.stdout.write(f"Selected: {visualization_choice} -> {satellite_choice} -> {time_zone_choice} -> {observer_choice}\n")
         visualize_ground_track(satellite_choice, time_zone_choice, observers[observer_choice][0], observers[observer_choice][1])
 
     elif visualization_choice == "Polar Coordinate Visualization":
