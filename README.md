@@ -69,7 +69,7 @@ The program then generates the requested visualization, providing a detailed vie
 
 - Ground Track Visualization
   ```bash
-  Selected: Ground Track Visualization -> CREW DRAGON 9 -> US/Eastern -> Toronto`
+  Selected: Ground Track Visualization -> CREW DRAGON 9 -> US/Eastern -> Toronto
   ```
   ![Ground Track Visualization Example](img/demo/ground_track_demoplt.png)
   
