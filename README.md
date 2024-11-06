@@ -81,7 +81,8 @@ Skyfield: For satellite position calculations.
 NumPy: Data handling and calculations.
 Matplotlib: Plotting and visualizing satellite paths.
 
-Future Improvements 🚀
+## Future Improvements 🚀
 
 - Add support for more visualization options, including 3D tracking.
+- Add visualizations that project onto the map of world
 - Allow real-time updates of satellite passes.
