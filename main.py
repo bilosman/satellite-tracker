@@ -5,18 +5,20 @@ import sys
 def select_option(options, prompt):
     """Display options and prompt user to select one."""
     sys.stdout.write(prompt + "\n")
-    for idx, option in enumerate(options, 1):
-        sys.stdout.write(f"{idx}. {option}\n")
+    for number, option in enumerate(options, 1):
+        sys.stdout.write(f"{number}. {option}\n")
     sys.stdout.write("Enter the number of your choice: ")
     print('\n')
     
     try:
         choice = int(sys.stdin.readline().strip()) - 1
+        
         if 0 <= choice < len(options):
             return options[choice]
         else:
             sys.stdout.write("Invalid selection. Please choose a valid number.\n")
             return select_option(options, prompt)
+    
     except ValueError:
         sys.stdout.write("Invalid input. Please enter a number.\n")
         return select_option(options, prompt)
