@@ -12,6 +12,7 @@ A Python application for tracking and visualizing satellite positions over Earth
 ## Conceptual Knowledge 📚
 
 - **Ground Track**: The projection of a satellite's orbit onto a 2D map of Earth, tracing its path as seen from the surface.
+
 ![Ground Track Example](img/info/ground_track.jpg)
 
 - **Azimuth & Elevation**: Parameters describing satellite position relative to an observer:
