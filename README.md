@@ -21,7 +21,8 @@ A Python application for tracking and visualizing satellite positions over Earth
 ![Azimuth and Elevation](img/info/az_elevation.gif)
 
 - **Polar Visualization**: A plot using azimuth and elevation to represent a satellite’s visibility relative to an observer’s location.
-![Polar Plot Example](img/info/polar_plot.png)
+
+  ![Polar Plot Example](img/info/polar_plot.png)
 
 ## Features ✨
 
