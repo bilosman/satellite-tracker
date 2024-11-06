@@ -57,7 +57,9 @@ The program then generates the requested visualization, providing a detailed vie
 ## Code Overview 🧩
 
 `visualizations/ground_track.py`: Contains functions to generate 2D ground track visualizations.
+
 `visualizations/polar_cord.py`: Generates polar plots to illustrate satellite passes.
+
 `main.py`: Command-line interface for visualization selection and customization.
 
 ## Example Output 📸
